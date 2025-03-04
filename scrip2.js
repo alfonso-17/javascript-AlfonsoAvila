@@ -213,3 +213,17 @@ if (figura === "triángulo" || figura === "triangulo") {
     alert("Figura no reconocida. Por favor, elija 'triángulo' o 'cuadrado'.");
 }
 */
+/*
+19.Diseña un programa que solicite el nombre de un usuario y su contraseña. Si
+el nombre es "admin" y la contraseña es "12345", muestra un mensaje de
+acceso concedido; de lo contrario, muestra un mensaje de acceso denegado.
+*/
+ 
+let nombre = prompt("Ingrese su nombre:");
+let contrasena = prompt("Ingrese su contraseña:");
+
+if (nombre === "admin" && contrasena === "12345") {
+    alert("Acceso concedido");
+} else {
+    alert("Acceso denegado");
+}
