@@ -1,9 +1,42 @@
 // 1 imprime en consola si el usuario y contraseña coincide con la establecidos
+/*
+let usuario = "admin";
+let contrasena = "12345";
+let usuarioIngresado = prompt("Ingrese su usuario");
+let contrasenaIngresada = prompt("Ingrese su contraseña");
+if (usuario === usuarioIngresado && contrasena === contrasenaIngresada) {
+  console.log("Usuario y contraseña correctos");
+} else {
+  console.log("Usuario y/o contraseña incorrectos");
+}
 // 2 verifica si un numero es positivo, negativo o cero e imprime un mensaje en consola
+let numero = parseInt(prompt("Ingrese un numero"));
+if (numero > 0) {
+    console.log("El numero es positivo");
+    }
+    else if (numero < 0) {
+    console.log("El numero es negativo");
+    }
+    else {
+    console.log("El numero es cero");
+    }
+
 // 3 verifica si una persona puede votar o no (mayor o igual a 18 años) e indique cuantos años faltan para que pueda votar
+let edad = parseInt(prompt("Ingrese su edad"));
+if (edad >= 18) {
+    console.log("Usted puede votar");
+    }
+    else {
+    console.log("Usted no puede votar, faltan " + (18 - edad) + " años para que pueda votar");
+    }
+
 // 4 usa un operador ternario para asignar si el valor " adulto " o " menor" en una variable dependiendo la edad
+let edad = parseInt(prompt("Ingrese su edad"));
+let estado = edad >= 18 ? "adulto" : "menor";
+console.log("Usted es " + estado); 
 
 
+*/
 
 // realizar un programa que determine que dia de la semana corresponde hoy, ingresandp p utilizandp la funcion prompt
 /*
@@ -217,7 +250,7 @@ if (figura === "triángulo" || figura === "triangulo") {
 19.Diseña un programa que solicite el nombre de un usuario y su contraseña. Si
 el nombre es "admin" y la contraseña es "12345", muestra un mensaje de
 acceso concedido; de lo contrario, muestra un mensaje de acceso denegado.
-*/
+
  
 let nombre = prompt("Ingrese su nombre:");
 let contrasena = prompt("Ingrese su contraseña:");
@@ -227,3 +260,14 @@ if (nombre === "admin" && contrasena === "12345") {
 } else {
     alert("Acceso denegado");
 }
+
+
+*/
+
+function saludar(){
+    alert("hola, bienvenido a mi pagina");
+}
+saludar()
+function sumar(a,b){
+    return 2 +2
+}   
